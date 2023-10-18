@@ -1,0 +1,49 @@
+* {
+    font-family: 'Albert Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+body {
+    background-color: #d3e1f1;
+}
+
+img {
+    width: 256px;
+    border-radius: 12px;
+    justify-self: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: white;
+    border-radius: 24px;
+    width: 256px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  h2 {
+    color: #1d2642;
+    font-weight:900;
+    font-size: 19px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    width: 95%;
+  }
+
+  p {
+    color: rgba(149, 157, 165, 1);
+    font-weight: 500;
+    padding: 0 0 30px 0;
+    font-size: 13px;
+    width: 85%;
+  }
+
+  
