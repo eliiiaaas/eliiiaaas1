@@ -6,6 +6,26 @@
 body {
     background-color: #d3e1f1;
 }
+.home {
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  margin: 30px 30px 30px 30px;
+  height: 32px;
+  width: 32px;
+  background-color: white;
+  transition: all 0.5s ease-out;
+  
+}
+
+.home:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+}
+svg {
+  height: 32px;
+  width: 18px;
+  position: absolute;
+}
 
 img {
     width: 256px;
@@ -53,12 +73,7 @@ img {
     text-align: center;
   }
 
-  .home {
-    height: 32px;
-    width: 32px;
-    border-radius: 100%;
-    margin: 30px 30px 30px 30px;
-  }
+   
 
   .attribution {
     position: absolute;
