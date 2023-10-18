@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #191d22;
+    background-color: #d3e1f1;
 }
 
 .container {
@@ -28,13 +28,13 @@ a {
     background-color: white;
     border-radius: 24px;
     width: 232px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin: 20% 40px 40px 0 ;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-out;
   }
 
   .card:hover {
-    transform: translateY(-25px) scale(1.115) translateZ(0);
+    transform: translateY(-5px) scale(1.005) translateZ(0);
   }
 
   h1 {
